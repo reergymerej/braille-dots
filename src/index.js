@@ -523,7 +523,7 @@ const sortKey = (numbers) =>
     .sort((a, b) => a - b)
     .join('')
 
-export default (value) => {
+module.exports = (value) => {
   const dotValue = dots[value]
   if (dotValue || dotValue === null) {
     return dotValue
