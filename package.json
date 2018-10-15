@@ -1,7 +1,16 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "braille-dots",
   "description": "Get Braille characters based on the dot-names or vice versa.",
+  "keywords": [
+    "braille",
+    "dots",
+    "translation",
+    "translator",
+    "6-dot",
+    "8-dot",
+    "unicode"
+  ],
   "main": "lib/index.js",
   "scripts": {
     "start": "babel-node src/index.js",
@@ -21,5 +30,8 @@
     "jest": "^22.0.3"
   },
   "dependencies": {},
-  "license": "ISC"
+  "license": "ISC",
+  "repository": "git@github.com:reergymerej/braille-dots.git",
+  "author": "Jeremy Greer <jex.grizzle@gmail.com>",
+  "private": false
 }
