@@ -3,6 +3,12 @@ import braille from '.'
 const blank = '⠀'
 
 describe('braille', () => {
+  it('should not require .default', () => {
+    const brailleDots = require('.')
+
+    expect(brailleDots('⠎')).toBe(234)
+  })
+
   it('should translate from dots', () => {
     expect(braille('⠎')).toBe(234)
   })
